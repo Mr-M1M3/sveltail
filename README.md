@@ -12,19 +12,19 @@ npx degit Mr-M1M3/sveltail project_name
 
 ## Usage
 
-```javascript
-// First install all the dependencies
-npm install // or run `yarn` if you are using yarn
+```bash
+# First install all the dependencies
+npm install # or run `yarn` if you are using yarn
 
-// Genertate TailwindCSS and Build the svelte app for developing.
-//It also creates a development server and wathces for changes in our project
-npm run dev // `yarn dev` if you would like to use yarn
+# Genertate TailwindCSS and Build the svelte app for developing.
+#It also creates a development server and wathces for changes in our project
+npm run dev # `yarn dev` if you would like to use yarn
 
-// Finally, if the project is ready, build your project for production
-npm run build // `yarn build` for yarn users
+# Finally, if the project is ready, build your project for production
+npm run build # `yarn build` for yarn users
 
-// you can start the production server by running
-npm run start // `yarn start` if yarn is your favorite
+# you can start the production server by running
+npm run start # `yarn start` if yarn is your favorite
 ```
 
 
