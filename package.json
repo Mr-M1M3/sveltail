@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "build": "tailwindcss -i ./src/tailwind.src.css -o ./src/tailwind.css && rollup -c",
-    "dev": "concurrently \"tailwindcss -i ./src/tailwind.src.css -o ./src/tailwind.css -w\" \"rollup -c -w\"",
+    "dev": "tailwindcss -i ./src/tailwind.src.css -o ./src/tailwind.css && concurrently \"tailwindcss -i ./src/tailwind.src.css -o ./src/tailwind.css -w\" \"rollup -c -w\"",
     "start": "sirv public --no-clear"
   },
   "devDependencies": {
